@@ -7,7 +7,7 @@ class LaunchWriteFactory
     public function createCsvJson(WriterFactory $obj){
 
         $obj->createCsvWriter();
-        $obj::createJsonWriter();
+        $obj->createJsonWriter();
     }
 
 }

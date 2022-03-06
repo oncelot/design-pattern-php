@@ -12,9 +12,7 @@ if($myOperatingSystem == $OSLinux){
     $unix = new UnixWriterFactory();
     $launch= new LaunchWriteFactory();
     $launch::createCsvJson($unix);
-    $launch2=new UnixWriterFactory();
-    $launch2::createJsonWriter();
-    $launch2::createCsvWriter();
+
 }
 if($myOperatingSystem == $OSWindow){
     $win = new WinWriterFactory();
