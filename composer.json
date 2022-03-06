@@ -1,0 +1,14 @@
+{
+    "name": "fausto/testphp",
+    "authors": [
+        {
+            "name": "oncelot",
+            "email": "ferlafausto@gmail.com"
+        }
+    ],
+    "require": {},
+	
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
